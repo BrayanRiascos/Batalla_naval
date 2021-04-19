@@ -1686,27 +1686,105 @@ public class Game extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton74ActionPerformed
 
     private void jButton75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton75ActionPerformed
-        // TODO add your handling code here:
+        boolean v=  control.verificar(7, 4);
+        if (v==true) {
+             jButton75.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton75ActionPerformed
 
     private void jButton76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton76ActionPerformed
-        // TODO add your handling code here:
+        boolean v=  control.verificar(7, 5);
+        if (v==true) {
+             jButton76.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton76ActionPerformed
 
     private void jButton77ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton77ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(7, 6);
+        if (v==true) {
+             jButton77.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton77ActionPerformed
 
     private void jButton78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton78ActionPerformed
-        // TODO add your handling code here:
+        boolean v=  control.verificar(7, 7);
+        if (v==true) {
+             jButton78.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton78ActionPerformed
 
     private void jButton79ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton79ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(7, 8);
+        if (v==true) {
+             jButton79.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton79ActionPerformed
 
     private void jButton80ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton80ActionPerformed
-        // TODO add your handling code here:
+        boolean v=  control.verificar(7, 9);
+        if (v==true) {
+             jButton80.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton80ActionPerformed
 
     private void jButton81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton81ActionPerformed
