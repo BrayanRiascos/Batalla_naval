@@ -16,7 +16,7 @@ public class Controlbatalla {
         return oceano;
     }
     public boolean verificar(int fi, int col){
-        
+        ver=false;
        Game o = new Game();
         if (oceano[fi][col]==1) {
             System.out.println("\nmuere");
