@@ -1385,11 +1385,37 @@ public class Game extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
+       boolean v=  control.verificar(1, 1);
+        if (v==true) {
+             jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
+       boolean v=  control.verificar(1, 2);
+        if (v==true) {
+             jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
