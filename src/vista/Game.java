@@ -1368,7 +1368,7 @@ public class Game extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        boolean v=  control.verificar(1, 0);
+        boolean v=  control.verificar(0, 3);
         if (v==true) {
              jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
@@ -1385,7 +1385,7 @@ public class Game extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-       boolean v=  control.verificar(1, 1);
+       boolean v=  control.verificar(0, 4);
         if (v==true) {
              jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
@@ -1402,7 +1402,7 @@ public class Game extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-       boolean v=  control.verificar(1, 2);
+       boolean v=  control.verificar(0, 5);
         if (v==true) {
              jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
@@ -1419,7 +1419,7 @@ public class Game extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-            boolean v=  control.verificar(2, 0);
+         boolean v=  control.verificar(0, 6);
         if (v==true) {
              jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
