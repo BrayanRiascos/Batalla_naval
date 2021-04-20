@@ -1298,7 +1298,7 @@ public class Game extends javax.swing.JFrame {
         }
     }
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
 
         boolean v = control.verificar(0, 0);
         if (v == true) {
@@ -1407,7 +1407,7 @@ public class Game extends javax.swing.JFrame {
         fin();
     }//GEN-LAST:event_jButton6ActionPerformed
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         boolean v = control.verificar(0, 6);
         if (v == true) {
             jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
@@ -1425,7 +1425,7 @@ public class Game extends javax.swing.JFrame {
 
         
       
-   
+    }
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
 
@@ -2147,12 +2147,72 @@ public class Game extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton49ActionPerformed
 
     private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
-
+        boolean v = control.verificar(4, 9);
+        if (v == true) {
+            jButton50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+            aciertos = aciertos + 1;
+            String a = Integer.toString(aciertos);
+            txtaciertos.setText(a);
+            con++;
+        } else {
+            erroneo = erroneo + 1;
+            String e = Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+        resta();
+        fin();
        
     }//GEN-LAST:event_jButton50ActionPerformed
 
-    private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-         boolean v=  control.verificar(5, 0);
+                                        
+
+                                          
+        
+
+                               
+        
+                                            
+
+                                    
+        
+                                             
+
+                               
+       
+                                           
+
+                                           
+        
+                                          
+
+      
+                                            
+
+        
+
+      
+                                           
+
+                                         
+       
+                                         
+
+        
+                                          
+
+                                   
+       
+
+                        
+      
+
+      
+
+    
+                                         
+
+    private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton51ActionPerformed
+     boolean v=  control.verificar(5, 0);
         if (v==true) {
              jButton51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
@@ -2166,10 +2226,10 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+    }//GEN-LAST:event_jButton51ActionPerformed
 
-    private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-         boolean v=  control.verificar(5, 1);
+    private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
+        boolean v=  control.verificar(5, 1);
         if (v==true) {
              jButton52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
@@ -2183,10 +2243,11 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+                                           
+    }//GEN-LAST:event_jButton52ActionPerformed
 
-    private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-         boolean v=  control.verificar(5, 2);
+    private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton53ActionPerformed
+       boolean v=  control.verificar(5, 2);
         if (v==true) {
              jButton53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
@@ -2200,10 +2261,10 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+    }//GEN-LAST:event_jButton53ActionPerformed
 
-    private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-          boolean v=  control.verificar(5, 3);
+    private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
+         boolean v=  control.verificar(5, 3);
         if (v==true) {
              jButton54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
@@ -2217,10 +2278,10 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+    }//GEN-LAST:event_jButton54ActionPerformed
 
-    private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-          boolean v=  control.verificar(5, 4);
+    private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
+           boolean v=  control.verificar(5, 4);
         if (v==true) {
              jButton55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
@@ -2234,10 +2295,10 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+    }//GEN-LAST:event_jButton55ActionPerformed
 
-    private void jButton56ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-         boolean v=  control.verificar(5, 5);
+    private void jButton56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton56ActionPerformed
+        boolean v=  control.verificar(5, 5);
         if (v==true) {
              jButton56.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
@@ -2251,9 +2312,10 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+    }//GEN-LAST:event_jButton56ActionPerformed
 
-    private void jButton57ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jButton57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton57ActionPerformed
+                                           
          boolean v=  control.verificar(5, 6);
         if (v==true) {
              jButton57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
@@ -2268,9 +2330,10 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+    }//GEN-LAST:event_jButton57ActionPerformed
 
-    private void jButton58ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jButton58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton58ActionPerformed
+                                        
           boolean v=  control.verificar(5, 7);
         if (v==true) {
              jButton58.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
@@ -2285,9 +2348,11 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+                                            
+    }//GEN-LAST:event_jButton58ActionPerformed
 
-    private void jButton59ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jButton59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton59ActionPerformed
+                                 
           boolean v=  control.verificar(5, 8);
         if (v==true) {
              jButton59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
@@ -2302,10 +2367,10 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+    }//GEN-LAST:event_jButton59ActionPerformed
 
-    private void jButton60ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-         boolean v=  control.verificar(5, 9);
+    private void jButton60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton60ActionPerformed
+          boolean v=  control.verificar(5, 9);
         if (v==true) {
              jButton60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
@@ -2319,9 +2384,10 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+    }//GEN-LAST:event_jButton60ActionPerformed
 
-    private void jButton61ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jButton61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton61ActionPerformed
+                          
           boolean v=  control.verificar(6, 0);
         if (v==true) {
              jButton61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
@@ -2336,10 +2402,10 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+    }//GEN-LAST:event_jButton61ActionPerformed
 
-    private void jButton62ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-          boolean v=  control.verificar(6, 1);
+    private void jButton62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton62ActionPerformed
+       boolean v=  control.verificar(6, 1);
         if (v==true) {
              jButton62.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
@@ -2353,10 +2419,11 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+                                            
+    }//GEN-LAST:event_jButton62ActionPerformed
 
-    private void jButton63ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-         boolean v=  control.verificar(6, 2);
+    private void jButton63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton63ActionPerformed
+      boolean v=  control.verificar(6, 2);
         if (v==true) {
              jButton63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
              aciertos=aciertos+1;
@@ -2370,9 +2437,11 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-    }                                         
+                                            
+    }//GEN-LAST:event_jButton63ActionPerformed
 
-    private void jButton64ActionPerformed(java.awt.event.ActionEvent evt) {                                          
+    private void jButton64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton64ActionPerformed
+                              
          boolean v=  control.verificar(6, 3);
         if (v==true) {
              jButton64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
@@ -2387,77 +2456,6 @@ public class Game extends javax.swing.JFrame {
         }
        resta();
        fin();   
-
-      boolean v = control.verificar(4, 9);
-        if (v == true) {
-            jButton50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
-            aciertos = aciertos + 1;
-            String a = Integer.toString(aciertos);
-            txtaciertos.setText(a);
-            con++;
-        } else {
-            erroneo = erroneo + 1;
-            String e = Integer.toString(erroneo);
-            txterroneo.setText(e);
-        }
-        resta();
-        fin();
-    }                                         
-
-    private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton51ActionPerformed
-     
-    }//GEN-LAST:event_jButton51ActionPerformed
-
-    private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
-       
-    }//GEN-LAST:event_jButton52ActionPerformed
-
-    private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton53ActionPerformed
-      
-    }//GEN-LAST:event_jButton53ActionPerformed
-
-    private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
-       
-    }//GEN-LAST:event_jButton54ActionPerformed
-
-    private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
-        
-    }//GEN-LAST:event_jButton55ActionPerformed
-
-    private void jButton56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton56ActionPerformed
-       
-    }//GEN-LAST:event_jButton56ActionPerformed
-
-    private void jButton57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton57ActionPerformed
-      
-    }//GEN-LAST:event_jButton57ActionPerformed
-
-    private void jButton58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton58ActionPerformed
-      
-    }//GEN-LAST:event_jButton58ActionPerformed
-
-    private void jButton59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton59ActionPerformed
-       
-    }//GEN-LAST:event_jButton59ActionPerformed
-
-    private void jButton60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton60ActionPerformed
-        
-    }//GEN-LAST:event_jButton60ActionPerformed
-
-    private void jButton61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton61ActionPerformed
-        
-    }//GEN-LAST:event_jButton61ActionPerformed
-
-    private void jButton62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton62ActionPerformed
-    
-    }//GEN-LAST:event_jButton62ActionPerformed
-
-    private void jButton63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton63ActionPerformed
-   
-    }//GEN-LAST:event_jButton63ActionPerformed
-
-    private void jButton64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton64ActionPerformed
-  
 
     }//GEN-LAST:event_jButton64ActionPerformed
 
