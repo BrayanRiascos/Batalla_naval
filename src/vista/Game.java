@@ -1662,7 +1662,20 @@ public class Game extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-        // TODO add your handling code here:
+         boolean v = control.verificar(2, 0);
+        if (v == true) {
+            jButton21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+            aciertos = aciertos + 1;
+            String a = Integer.toString(aciertos);
+            txtaciertos.setText(a);
+            con++;
+        } else {
+            erroneo = erroneo + 1;
+            String e = Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+        resta();
+        fin();
     }//GEN-LAST:event_jButton21ActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
