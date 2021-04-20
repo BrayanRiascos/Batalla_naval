@@ -1299,6 +1299,7 @@ public class Game extends javax.swing.JFrame {
     }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+
         boolean v = control.verificar(0, 0);
         if (v == true) {
             jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
@@ -1313,10 +1314,14 @@ public class Game extends javax.swing.JFrame {
         }
         resta();
         fin();
-    }//GEN-LAST:event_jButton1ActionPerformed
+
+   
+
+    }
 
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+
         boolean v = control.verificar(0, 1);
         if (v == true) {
             jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
@@ -1417,7 +1422,10 @@ public class Game extends javax.swing.JFrame {
         }
         resta();
         fin();
-    }//GEN-LAST:event_jButton7ActionPerformed
+
+        
+      
+   
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
 
