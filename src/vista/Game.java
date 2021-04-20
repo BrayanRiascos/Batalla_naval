@@ -1892,103 +1892,415 @@ public class Game extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton49ActionPerformed
 
     private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
-        // TODO add your handling code here:
+       
     }//GEN-LAST:event_jButton50ActionPerformed
 
     private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton51ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(5, 0);
+        if (v==true) {
+             jButton51.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton51ActionPerformed
 
     private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(5, 1);
+        if (v==true) {
+             jButton52.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton52ActionPerformed
 
     private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton53ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(5, 2);
+        if (v==true) {
+             jButton53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton53ActionPerformed
 
     private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
-        // TODO add your handling code here:
+          boolean v=  control.verificar(5, 3);
+        if (v==true) {
+             jButton54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton54ActionPerformed
 
     private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
-        // TODO add your handling code here:
+          boolean v=  control.verificar(5, 4);
+        if (v==true) {
+             jButton55.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton55ActionPerformed
 
     private void jButton56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton56ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(5, 5);
+        if (v==true) {
+             jButton56.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton56ActionPerformed
 
     private void jButton57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton57ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(5, 6);
+        if (v==true) {
+             jButton57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton57ActionPerformed
 
     private void jButton58ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton58ActionPerformed
-        // TODO add your handling code here:
+          boolean v=  control.verificar(5, 7);
+        if (v==true) {
+             jButton58.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton58ActionPerformed
 
     private void jButton59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton59ActionPerformed
-        // TODO add your handling code here:
+          boolean v=  control.verificar(5, 8);
+        if (v==true) {
+             jButton59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton59ActionPerformed
 
     private void jButton60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton60ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(5, 9);
+        if (v==true) {
+             jButton60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton60ActionPerformed
 
     private void jButton61ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton61ActionPerformed
-        // TODO add your handling code here:
+          boolean v=  control.verificar(6, 0);
+        if (v==true) {
+             jButton61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton61ActionPerformed
 
     private void jButton62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton62ActionPerformed
-        // TODO add your handling code here:
+          boolean v=  control.verificar(6, 1);
+        if (v==true) {
+             jButton62.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton62ActionPerformed
 
     private void jButton63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton63ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(6, 2);
+        if (v==true) {
+             jButton63.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton63ActionPerformed
 
     private void jButton64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton64ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(6, 3);
+        if (v==true) {
+             jButton64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton64ActionPerformed
 
     private void jButton65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton65ActionPerformed
-        // TODO add your handling code here:
+          boolean v=  control.verificar(6, 4);
+        if (v==true) {
+             jButton65.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton65ActionPerformed
 
     private void jButton66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton66ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(6, 5);
+        if (v==true) {
+             jButton66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton66ActionPerformed
 
     private void jButton67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton67ActionPerformed
-        // TODO add your handling code here:
+          boolean v=  control.verificar(6, 6);
+        if (v==true) {
+             jButton67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton67ActionPerformed
 
     private void jButton68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton68ActionPerformed
-        // TODO add your handling code here:
+          boolean v=  control.verificar(6, 7);
+        if (v==true) {
+             jButton68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton68ActionPerformed
 
     private void jButton69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton69ActionPerformed
-        // TODO add your handling code here:
+          boolean v=  control.verificar(6, 8);
+        if (v==true) {
+             jButton69.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton69ActionPerformed
 
     private void jButton70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton70ActionPerformed
-        // TODO add your handling code here:
+          boolean v=  control.verificar(6, 9);
+        if (v==true) {
+             jButton70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton70ActionPerformed
 
     private void jButton71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton71ActionPerformed
-        // TODO add your handling code here:
+          boolean v=  control.verificar(7, 0);
+        if (v==true) {
+             jButton71.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton71ActionPerformed
 
     private void jButton72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton72ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(7, 1);
+        if (v==true) {
+             jButton72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton72ActionPerformed
 
     private void jButton73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton73ActionPerformed
-        // TODO add your handling code here:
+         boolean v=  control.verificar(7, 2);
+        if (v==true) {
+             jButton73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton73ActionPerformed
 
     private void jButton74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton74ActionPerformed
-        // TODO add your handling code here:
+        boolean v=  control.verificar(7, 3);
+        if (v==true) {
+             jButton74.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
+             aciertos=aciertos+1;
+             String a=Integer.toString(aciertos);
+             txtaciertos.setText(a);
+             con++;
+        }else{
+            erroneo=erroneo+1;
+            String e=Integer.toString(erroneo);
+            txterroneo.setText(e);
+        }
+       resta();
+       fin();   
     }//GEN-LAST:event_jButton74ActionPerformed
 
     private void jButton75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton75ActionPerformed
