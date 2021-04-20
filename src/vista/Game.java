@@ -1297,124 +1297,33 @@ public class Game extends javax.swing.JFrame {
     }
   
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-     boolean v=  control.verificar(0, 0);
-        if (v==true) {
-             jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
-             aciertos=aciertos+1;
-             String a=Integer.toString(aciertos);
-             txtaciertos.setText(a);
-             con++;
-        }else{
-            erroneo=erroneo+1;
-            String e=Integer.toString(erroneo);
-            txterroneo.setText(e);
-        }
-       resta();
-       fin();
+   
     }//GEN-LAST:event_jButton1ActionPerformed
  
     
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-         boolean v=  control.verificar(0, 1);
-        if (v==true) {
-             jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
-             aciertos=aciertos+1;
-             String a=Integer.toString(aciertos);
-             txtaciertos.setText(a);
-             con++;
-        }else{
-            erroneo=erroneo+1;
-            String e=Integer.toString(erroneo);
-            txterroneo.setText(e);
-        }
-       resta();
-       fin();
+        
       
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-    boolean v=  control.verificar(0, 2);
-        if (v==true) {
-             jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
-             aciertos=aciertos+1;
-             String a=Integer.toString(aciertos);
-             txtaciertos.setText(a);
-             con++;
-        }else{
-            erroneo=erroneo+1;
-            String e=Integer.toString(erroneo);
-            txterroneo.setText(e);
-        }
-       resta();
-       fin();   
+  
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        boolean v=  control.verificar(0, 3);
-        if (v==true) {
-             jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
-             aciertos=aciertos+1;
-             String a=Integer.toString(aciertos);
-             txtaciertos.setText(a);
-             con++;
-        }else{
-            erroneo=erroneo+1;
-            String e=Integer.toString(erroneo);
-            txterroneo.setText(e);
-        }
-       resta();
-       fin();   
+      
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-       boolean v=  control.verificar(0, 4);
-        if (v==true) {
-             jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
-             aciertos=aciertos+1;
-             String a=Integer.toString(aciertos);
-             txtaciertos.setText(a);
-             con++;
-        }else{
-            erroneo=erroneo+1;
-            String e=Integer.toString(erroneo);
-            txterroneo.setText(e);
-        }
-       resta();
-       fin();   
+      
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-       boolean v=  control.verificar(0, 5);
-        if (v==true) {
-             jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
-             aciertos=aciertos+1;
-             String a=Integer.toString(aciertos);
-             txtaciertos.setText(a);
-             con++;
-        }else{
-            erroneo=erroneo+1;
-            String e=Integer.toString(erroneo);
-            txterroneo.setText(e);
-        }
-       resta();
-       fin();   
+     
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-         boolean v=  control.verificar(0, 6);
-        if (v==true) {
-             jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/explo.jpg")));
-             aciertos=aciertos+1;
-             String a=Integer.toString(aciertos);
-             txtaciertos.setText(a);
-             con++;
-        }else{
-            erroneo=erroneo+1;
-            String e=Integer.toString(erroneo);
-            txterroneo.setText(e);
-        }
-       resta();
-       fin();   
+       
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
